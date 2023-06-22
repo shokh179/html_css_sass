@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    
+<div class="navbarcik">
+<div class="navbarcik_sect">
+   <div class="bar">
+    <i class="fa-solid fa-bars"></i>
+   </div>
+    <div class="fa">
+        <ul>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Кредит</a></li>
+            <li><a href="#">Оплата и доставка</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="#">Скупка Б/У</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+</div>
+<div class="navbarcik_sect">
+    <a href="#">RU/UZ</a>
+    <i class="fa-regular fa-user"></i>
+</div>
+
+</div>
+
+<nav>
+    <input type="checkbox" id="check">
+   
+    <div class="res">
+        
+        <div class="fa">
+            <ul>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Кредит</a></li>
+                <li><a href="#">Оплата и доставка</a></li>
+                <li><a href="#">Помощь</a></li>
+                <li><a href="#">Скупка Б/У</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="navbar_sect">
+          
+            <div class="navbar_bar">
+                <button>КАТАЛОГ ТОВАРОВ<span uk-icon="thumbnails"></span></button>
+            </div>
+        </div>
+       
+
+    </div>
+  
+    <label class="open" for="check"><i class="fa-solid fa-bars"></i></label>
+    <label class="close" for="check"></label>
+</nav>
+
+<div class="navbar">
+    <div class="navbar_sect">
+        <div class="navbar_logo">
+        <a href="index1.html"><img src="./assets/Logo.png" alt=""></a>
+        </div>
+        <div class="navbar_bar">
+            <button>КАТАЛОГ ТОВАРОВ<span uk-icon="thumbnails"></span></button>
+        </div>
+    </div>
+    <div class="navbar_sect">
+        <div class="navbar_sorch">
+           <form action="">
+            <input type="text">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+           </form>
+        </div>
+        <div class="navbar_tel">
+            <a href="tel:050 065 87 96">050 065 87 96</a>
+        </div>
+    </div>
+    <div class="navbar_sect">
+        <i class="fa-solid fa-scale-balanced"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+
+<div class="bigshowcase">
+    <div class="bigshowcase_sect">
+        <ul>
+            <li><a href="#"><img src="./assets/i1.png" alt="">Комплектующие ПК</a> <span uk-icon="chevron-right"></span></li>
+            <li><a href="#"><img src="./assets/i2.png" alt="">Мониторы</a><span uk-icon="chevron-right"></span></li>
+            <li><a href="#"><img src="./assets/i3.png" alt="">Компьютеры</a><span uk-icon="chevron-right"></span></li>
+            <li><a href="#"><img src="./assets/i4.png" alt="">Ноутбуки</a><span uk-icon="chevron-right"></span></li>
+            <li><a href="#"><img src="./assets/i5.png" alt="">Игровые консоли</a><span uk-icon="chevron-right"></span></li>
+            <li><a href="#"><img src="./assets/i6.png" alt="">Комплектующие к ноутбукам</a><span uk-icon="chevron-right"></span></li>
+            <li><a href="#"><img src="./assets/i7.png" alt="">Планшеты</a><span uk-icon="chevron-right"></span></li>
+            <li><a href="#"><img src="./assets/i8.png" alt="">Принтеры и МФУ</a><span uk-icon="chevron-right"></span></li>
+            <li><a href="#"><img src="./assets/i9.png" alt="">Акустические колонки</a><span uk-icon="chevron-right"></span></li>
+            <li><a href="#"><img src="./assets/i10.png" alt="">Сетевое оборудование</a><span uk-icon="chevron-right"></span></li>
+        </ul>
+    </div>
+    <div class="bigshowcase_sect">
+        <div class="carusel">
+
+            <div class="komil" uk-slideshow="animation: push">
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+            
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="./assets/showcase.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./assets/showcase1.png" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="./assets/showcase2.png" alt="" uk-cover>
+                        </li>
+                    </ul>
+            
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            
+                </div>
+            
+                <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            
+            </div>
+
+           
+        </div>
+        
+        <div class="incik">
+            <div class="incik_sect">
+                <img src="./assets/m1.png" alt="">
+                <p>Бесплатная сборка</p>
+            </div>
+            <div class="incik_sect">
+                <img src="./assets/m2.png" alt="">
+                <p>Рассрочка 4 мес./0% без переплат</p>
+            </div>
+            <div class="incik_sect">
+                <img src="./assets/m3.png" alt="">
+                <p>Бесплатная доставка</p>
+            </div>
+            <div class="incik_sect">
+                <img src="./assets/m4.png" alt="">
+                <p>Официальная гарантия</p>
+            </div>
+            <div class="incik_sect">
+                <img src="./assets/m5.png" alt="">
+                <p>Лучшая цена </p>
+            </div>
+            <div class="incik_sect">
+                <img src="./assets/m6.png" alt="">
+                <p>11 лет на рынке</p>
+            </div>
+            <div class="incik_sect">
+                <img src="./assets/m7.png" alt="">
+                <p>Профессиональная консультация</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="heading">
+<h2>Топ продаж</h2>
+</div>
+
+<div class="cards">
+    <div class="card">
+        <div class="card_icon">
+            <button>Новинка</button>
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c1.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <p>Отзывов: 0</p>
+        </div>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c2.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+            <p>Отзывов: 4</p>      
+        </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+      
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c3.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c4.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c5.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c6.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="cards">
+    <div class="card">
+        <div class="card_icon">
+            <button>Новинка</button>
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c5.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <p>Отзывов: 0</p>
+        </div>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c3.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+            <p>Отзывов: 4</p>      
+        </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+      
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c4.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c2.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c6.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c1.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="zona">
+<div class="heading">
+    <span class="left"></span><h1>GAME ZONE</h1><span class="right"></span>
+</div>
+
+<div class="cards">
+    <div class="card">
+        <div class="card_icon">
+            <button>Новинка</button>
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c1.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <p>Отзывов: 0</p>
+        </div>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c2.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+            <p>Отзывов: 4</p>      
+        </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+      
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c3.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c4.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c5.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card_icon">
+           
+            <i class="fa-solid fa-scale-balanced"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="card_img">
+            <img src="./assets/c6.png" alt="">
+        </div>
+        <div class="card_text">
+            <h5>Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</h5>
+        </div>
+        <div class="card_star">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+              <p>Отзывов: 4</p>      
+          </div>
+        <del>3600грн.</del>
+        <div class="card_sum">
+          <div class="card_sum_narx">
+            <h4>3500грн.</h4>
+          </div>
+          <div class="card_sum_btn">
+            <button>КУПИТЬ</button>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="heading">
+    <h2 class="dk">Категории для геймеров</h2>
+</div>
+
+<div class="ccards">
+    <div class="ccard">
+        <div class="ccard_img">
+            <img src="./assets/cc1.png" alt="">
+        </div>
+        <div class="ccard_text">
+            <p>Клавиатуры</p>
+        </div>
+    </div>
+    <div class="ccard">
+        <div class="ccard_img">
+            <img src="./assets/cc2.png" alt="">
+        </div>
+        <div class="ccard_text">
+            <p>Мыши</p>
+        </div>
+    </div>
+    <div class="ccard">
+        <div class="ccard_img">
+            <img src="./assets/cc3.png" alt="">
+        </div>
+        <div class="ccard_text">
+            <p>Аксессуары</p>
+        </div>
+    </div>
+    <div class="ccard">
+        <div class="ccard_img">
+            <img src="./assets/cc4.png" alt="">
+        </div>
+        <div class="ccard_text">
+            <p>Игровые ноутбуки</p>
+        </div>
+    </div>
+    <div class="ccard">
+        <div class="ccard_img">
+            <img src="./assets/cc5.png" alt="">
+        </div>
+        <div class="ccard_text">
+            <p>Видеокарты</p>
+        </div>
+    </div>
+    <div class="ccard">
+        <div class="ccard_img">
+            <img src="./assets/cc6.png" alt="">
+        </div>
+        <div class="ccard_text">
+            <p>Мониторы</p>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="users">
+  <div class="user">
+    <div class="heading">
+      <h2>Отзывы</h2>
+    </div>
+    <div class="user_sect">
+      <div class="user_sect_us">
+        <img src="./assets/avatar.png" alt="">
+      </div>
+      <div class="user_sect_text">
+        <h3>Сергей Филимонов</h3>
+        <p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов.</p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+      <div class="user_sect_card">
+        <h1>4,7</h1>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <a href="#">532 отзыва на Google</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="user">
+    <div class="heading">
+      <h2>Инстаграм</h2>
+    </div>
+   <div class="user_sect">
+    <div class="user_sect_img">
+      <img src="./assets/image 7.png" alt="">
+    <img src="./assets/image 9.png" alt="">
+    <img src="./assets/image 7.png" alt="">
+    <img src="./assets/image 9.png" alt="">
+    </div>
+   </div>
+  </div>
+</div>
+
+<div class="heading">
+  <h2>Партнеры</h2>
+</div>
+
+<div class="comp">
+  <a href="#"><img src="./assets/hp.png" alt=""></a>
+  <a href="#"><img src="./assets/lenova.png" alt=""></a>
+  <a href="#"><img src="./assets/sony.png" alt=""></a>
+  <a href="#"><img src="./assets/Samsung.png" alt=""></a>
+  <a href="#"><img src="./assets/acer.png" alt=""></a>
+  <a href="#"><img src="./assets/hp.png" alt=""></a>
+  <a href="#"><img src="./assets/lenova.png" alt=""></a>
+  <a href="#"><img src="./assets/sony.png" alt=""></a>
+  <a href="#"><img src="./assets/Samsung.png" alt=""></a>
+  <a href="#"><img src="./assets/acer.png" alt=""></a>
+  <a href="#"><img src="./assets/Samsung.png" alt=""></a>
+  <a href="#"><img src="./assets/hp.png" alt=""></a>
+</div>
+
+<div class="heading">
+  <h2>Новости</h2>
+</div>
+
+<div class="jobs">
+  <div class="job">
+    <div class="job_img">
+      <img src="./assets/n1.png" alt="">
+    </div>
+   <div class="job_text">
+  <h5>Вакансия! Требуется контент-менеджер </h5>
+  <p>Интернет-магазину V-COMP на постоянную работу, требуется контент-менеджер. Работа удаленно (на дому), не сложная...</p>
+  <a href="#">Читать полностью -></a>
+  </div>
+  </div>
+  <div class="job">
+    <div class="job_img">
+      <img src="./assets/n2.png" alt="">
+    </div>
+   <div class="job_text">
+  <h5>Вакансия! Требуется контент-менеджер </h5>
+  <p>Интернет-магазину V-COMP на постоянную работу, требуется контент-менеджер. Работа удаленно (на дому), не сложная...</p>
+  <a href="#">Читать полностью -></a>
+  </div>
+  </div>
+  <div class="job">
+    <div class="job_img">
+      <img src="./assets/n3.png" alt="">
+    </div>
+   <div class="job_text">
+  <h5>Вакансия! Требуется контент-менеджер </h5>
+  <p>Интернет-магазину V-COMP на постоянную работу, требуется контент-менеджер. Работа удаленно (на дому), не сложная...</p>
+  <a href="#">Читать полностью -></a>
+  </div>
+  </div>
+  <div class="job">
+    <div class="job_img">
+      <img src="./assets/n4.png" alt="">
+    </div>
+   <div class="job_text">
+  <h5>Вакансия! Требуется контент-менеджер </h5>
+  <p>Интернет-магазину V-COMP на постоянную работу, требуется контент-менеджер. Работа удаленно (на дому), не сложная...</p>
+  <a href="#">Читать полностью -></a>
+  </div>
+  </div>
+</div>
+
+<div class="heading">
+  <h2>Магазин компьтерной техники и Аксессуар v-comp.com.ua</h2>
+ 
+</div>
+<div class="heading">
+  <p>Интернет-магазин v-comp.com.ua – всеукраинский магазин компьютерной техники и комплектующих, в котором без труда Вы сможете найти подходящий Вам компьютер с минимальной стоимостью. 
+    Посетив наш интернет-магазин, Вы сможете приобрести компьютеры и комплектующие, которые есть у нас в наличии или осуществить их заказ. 
+    И в кротчайшие сроки Мы доставим товар приглянувшийся Вам.
+    В базе электронного магазина v-comp.com.ua представлены тысячи актуальных товаров компьютерной техники: ноутбуки, мониторы, мыши, клавиатуры, материнские платы, процессоры; для работы с интернетом: сервера, модемы, роутеры, свич-кабеля, обжимные; для игр, отдыха и развлечений: суперовые gamebox сборки, game игровые видеокарты; для компании, офиса - офисные сборки. 
+    Мы подберем под Вас удобные недорогие компьютеры по Вашим целям и сделаем хорошие скидки, при оформлении покупки большого количества компьютеров.
+    Ваша модель компьютера устарела, мы поможем модернизировать устаревшее оборудование. Подберем для Вас наилучшие компьютерные комплектующие по низким ценам. Наша команда Интернет-магазина v-comp.com.ua соберет для Вас любую сборку по Вашим потребностям, а случае, если Ваш компьютер, ноутбук, материнская плата, принтер, сканер, копир, МФУ или другие составные части вышли из строя, поломались. Не беда! Мы выявим проблему, починим, произведем ремонт или заменим деталь, оборудование на новое. И все это в одном месте, не нужно обходить большое количество магазинов, сервисных центров, ждать по две, три недели. 
+    Компьютерный Интернет-магазин v-comp.com.ua</p>
+</div>
+
+<div class="footer">
+  <ul>
+    <h5>Информация</h5>
+    <li><a href="#">Акции</a></li>
+    <li><a href="#">Кредит</a></li>
+    <li><a href="#">Оплата и доставка</a></li>
+    <li><a href="#">Гарантия</a></li>
+    <li><a href="#">Частые вопросы</a></li>
+    <li><a href="#">Новости</a></li>
+    <li><a href="#">Блог</a></li>
+    <li><a href="#">О нас</a></li>
+    <li><a href="#">Политика конфиденциальности</a></li>
+    <li><a href="#">Контакты</a></li>
+  </ul>
+  <ul>
+    <h5>Услуги и сервисы</h5>
+    <li><a href="#">Сервисный центр v-comp</a></li>
+    <li><a href="#">Магазин Б/У товара</a></li>
+    <li><a href="#">Скупка Б/У </a></li>
+    <li><a href="#">Ремонт ПК и оргтехники</a></li>
+    <li><a href="#">Компьютерная помощь</a></li>
+    <li><a href="#">Сотрудничество</a></li>
+    <li><a href="#">Главная</a></li>
+  </ul>
+  <ul>
+    <h5>Контакты</h5>
+    <li><a href="tel:(063) 747-33-48">(067) 11-12-485 - Отдел продаж</a></li>
+    <li><a href="tel:(063) 747-33-48">(066) 484-39-22 - Отдел продаж</a></li>
+    <li><a href="tel:(063) 747-33-48">(063) 747-33-48 - Отдел продаж</a></li>
+    <li><a href="#">Днепр
+      Европейская, 8 (бывшая Миронова 8)</a></li>
+    <li><a href="#">Понедельник-Пятница 9:00-19:00
+      Суббота-Воскресенье: с 9:00-16:00</a></li>
+  </ul>
+<div class="sect">
+  <div class="heading-w">
+    <h3>Следите за нами</h3>
+  </div>
+  <div class="footer_icon">
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-brands fa-telegram"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+  </div>
+  <div class="heading-w">
+    <h3>Подписывайтесь на скидки</h3>
+  </div>
+  <form action="">
+    <input type="text">
+  </form>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
