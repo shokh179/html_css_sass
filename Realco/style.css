@@ -1,0 +1,890 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    color: inherit;
+}
+
+/* img{
+    width: 100%;
+    height: 100vh;
+} */
+
+header{
+    background-color: white;
+    z-index: 55;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+header nav ul {
+    display: flex;
+    font-size: 16px;
+    gap: 25px;
+}
+
+header .open{
+    font-size: 22px;
+    display: none;
+}
+
+header .close{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.501);
+    display: none;
+}
+
+header nav input{
+    display: none;
+}
+
+.buttons .k1{
+   padding: 6px 15px;
+   background-color: white;
+   border: 1px solid rgb(194, 190, 190);
+   border-radius: 5px;
+}
+
+.buttons :nth-child(2){
+    padding: 6px 15px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid rgb(194, 190, 190);
+}
+
+.showcase1{
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color:  #F5F5F2;
+}
+
+.case1{
+    height: calc(117vh - 80px);
+    background-color:  #F5F5F2;
+}
+
+
+.txt1 h5{
+  font-weight: 400;
+  background-color: gainsboro;
+  width: 150px;
+  padding: 5px;
+  border-radius: 15px;
+  color: #2A2C1F;
+}
+
+
+
+.txt1 h1{
+    font-size: 57px;
+    font-weight: 500;
+    color: #2A2C1F;
+}
+
+.txt1 p{
+    color: #2A2C1F;
+    font-size: 20px;
+}
+
+
+
+.pic2{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.fl{
+    margin: 7%;
+}
+
+.txt1 button{
+    background-color: orangered;
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    margin: 4%;
+}
+
+.showcase2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 3%;
+   
+}
+
+.case3{
+    width: 200px;
+}
+
+.case4{
+    display: flex;
+    gap: 25px;
+}
+
+.heading{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    width: 90%;
+    margin: 5% auto;
+    gap: 15px;
+}
+
+.card{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+
+.card h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.servs1{
+ display: flex;
+ align-items: center;
+ width: 100%;
+ justify-content: space-around;
+}
+
+.servs2{
+    margin-top: 5%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.kar{
+    display: flex;
+    width: 100%;
+   
+}
+
+.para{
+    width: 45%;
+}
+
+.rasm {
+    width: 45%;
+}
+
+
+.kr{
+    width: 45%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.p2{
+    width: 140px;
+    background-color: gainsboro;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 26px;
+    text-align: center;
+    
+}
+
+.para h1{
+    font-size: 48px;
+    padding: 10px 0;
+}
+
+.para p{
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.b :nth-child(1){
+    padding: 8px 15px ;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-weight: 500;
+}
+
+.b :nth-child(2){
+    padding: 8px 15px ;
+    font-size: 17px;
+    background-color: white;
+    border-radius: 6px;
+    border: transparent;
+    font-weight: 500;
+}
+
+.sh3{
+    margin: 0 auto;
+    width: 600px;
+    margin: 3% auto;
+}
+
+.sh3 h1{
+    font-size: 44px;
+}
+
+.p3{
+    width: 140px;
+    background-color: gainsboro;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 26px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+
+.ins{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 3%;
+}
+
+.on{
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+
+.icon{
+    display: flex;
+}
+
+.tx{
+    padding: 20px ;
+}
+
+.icon  p{
+  color: gray;
+  font-size: 18px;
+}
+
+.b3{
+    width: 30%;
+    margin: 3% auto;
+}
+
+.b3 :nth-child(1){
+    padding: 8px 15px ;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-weight: 500;
+}
+
+.b3 :nth-child(2){
+    padding: 8px 15px ;
+    font-size: 17px;
+    background-color: white;
+    border-radius: 6px;
+    border: transparent;
+    font-weight: 500;
+}
+
+.sx{
+    margin-top: 3%;
+}
+
+.cck{
+    padding: 30px 80px;
+}
+
+.tion{
+    background: #65665C;
+    width: 80%;
+    margin: 3% auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.tion > i{
+   background-color: #fff;
+   color: #2A2C1F;
+   font-size: 38px;
+   border-radius: 8px;
+   margin: 4% auto;
+}
+
+.tion h1{
+    font-size: 44px;
+    color: #fff;
+}
+
+.tion p{
+    font-size: 20px;
+    color: #fff;
+    width: 70%;
+    margin: 3% auto;
+}
+
+.tion button{
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: transparent;
+    margin-bottom: 3%;
+}
+
+.con i{
+    color: orange;
+    font-size: 20px;
+   
+}
+
+.con{
+    padding: 15px 0;
+}
+
+.contk{
+    display: flex;
+    align-items: center;
+
+}
+
+.fk{
+   padding: 20px 0;
+}
+
+.kl{
+    text-align: left;
+}
+
+.pies{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.pie2 button{
+   padding: 5px 15px;
+   border-radius: 5px;
+   font-size: 16px;
+   background-color: #fff;
+   border: 1px solid gainsboro;
+}
+
+
+.headin h1{
+    font-size: 48px;
+
+}
+
+.pie1{
+    font-size: 18px;
+    width: 60%;
+}
+
+.intx{
+    display: flex;
+
+}
+
+.teks{
+    text-align: left;
+    margin: 5%;
+}
+
+.mx{
+    width: 100%;
+    padding: 0;
+}
+
+
+
+.mx img{
+    width: 100%;
+}
+
+.teks a{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.ter{
+    padding: 10px 0;
+}
+
+.intx :nth-child(1){
+    background-color: pink;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+
+footer {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  footer .linki {
+    display: grid;
+    grid-template-columns:100px repeat( 3, 15%) 30%;
+    padding: 20px 0;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+ 
+  
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .put input{
+    padding: 10px 5px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+  }
+  
+  .put button{
+    padding: 10px 15px;
+    color: #fff;
+    background-color: orangered;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 16px;
+  }
+  
+  .sub h4{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .sub p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+.meta{
+    position: relative;
+}
+
+.inmet{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+
+.meta input{
+    padding: 5px 25px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1222px){
+    .inmet{
+        position: absolute;
+        top: 25%;
+        left: 1%;
+    }
+
+}
+
+@media(max-width:1083px){
+    .inmet{
+        position: absolute;
+        top: 45%;
+        left: 1%;
+    } 
+}
+
+@media(max-width:1204px){
+   .inmet{
+    position: absolute;
+    top: 8%;
+    left: 1%;
+} 
+}
+
+@media(max-width:1100px){
+.com {
+    display: none;
+}.inmet{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+
+    .sec1{
+        flex-direction: column;
+   
+    }
+
+    .ins{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .at{
+        width: 100%;
+    }
+
+    .at img{
+        width: 100%;
+    }
+
+    .rasm{
+        display: none;
+    }
+
+    .pr1{
+        width: 100%;
+        height: 100vh;
+        background: url(s1.png) ;
+        background-size: cover;
+        
+    }
+
+    .pr2{
+        width: 100%;
+        background: url(s2.png)  ;
+        background-size: cover;
+        
+    }
+
+    .case2 img {
+        display: none;
+        
+    }
+
+    .case1 h1{
+        font-size: 33px;
+    }
+
+    .case1 p{
+        font-size: 20px;
+    }
+
+    .fl{
+        margin: 5%;
+    }
+
+    .case1{
+        background: url(sh1.png) ;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .pic2{
+        display: none;
+    }
+   
+}
+
+@media(max-width:880px){
+    .inmet{
+        position: absolute;
+        top: 35%;
+        left: 1%;
+    }
+    
+    .showcase2{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+    
+    .case3{
+        width: 91%;
+    }}
+
+
+
+
+@media(max-width:800px){
+
+        
+    footer .linki{
+        grid-template-columns: 50% 25% 15% ;
+        gap: 30px;
+      }
+
+    .mx{
+        width: 100%;
+        padding: 0;
+    }
+    
+    
+    
+    .mx img{
+        width: 100%;
+    }
+
+    .pies{
+        flex-direction: column;
+        
+    }
+
+    .pie1{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .b3{
+        width: 80%;
+        margin: 3% auto;
+    }
+
+
+    .sec1{
+        flex-direction: column;
+   
+    }
+
+    .ins{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .at{
+        width: 100%;
+    }
+
+    .at img{
+        width: 100%;
+    }
+
+    .servs1{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .servs2{
+       width: 100%;
+        flex-direction: column;
+    }
+
+   .para h1{
+    font-size: 30px;
+   }
+
+   .para p{
+     font-size: 16px;
+   }
+
+    .para{
+        width: 100%;
+        height: 60vh;
+        background: url();
+    }
+    .rasm {
+        display:block;
+        width: 100%;
+    }
+
+    .rasm img{
+        width: 100%;
+    }
+
+    .servs2 .para{
+        order: 1;
+    }
+
+    .servs2 .rasm{
+        order: 2;
+    }
+
+
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 5% auto;
+        gap: 15px;
+    }
+    
+    .card{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+    }
+    
+
+    .showcase2{
+        
+        display: none;
+    }
+
+.pic2{
+    display: none;
+}
+
+    .case1 h1{
+        font-size: 26px;
+        
+    }
+
+    .case1 p{
+        font-size: 16px;
+    }
+
+    .showcase1{
+        display: flex;
+        
+        flex-direction: column;
+    }
+
+     .case2 img{
+        height: 100vh;
+     }
+    
+
+
+    header nav ul{
+        position: fixed;
+        width: 68%;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        background: linear-gradient(
+          to right bottom,
+          rgba(223, 122, 55, 0.938),
+          rgba(175, 89, 49, 0.973)
+        );
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: .3s;
+        z-index: 55;
+        color: white;
+      }
+
+      header nav ul li a:hover{
+       background-color: rgba(230, 215, 215, 0.74);
+       padding: 5px 10px;
+       border: 1px double gray;
+       border-radius: 5px;
+       color: darkblue;
+      }
+    
+      header .open{
+        display: block;
+      }
+    
+      #check:checked ~ ul{
+        left: 0;
+      }
+      #check:checked ~ .close{
+        display: block;
+      }
+}
+
+@media(max-width:1350px){
+
+    .pic2{
+        display: none;
+    }
+}
+
+@media(max-width:620px){
+   .footer .linki {
+    grid-template-columns: repeat(3,20%);
+   }
+
+   .sub{
+    display: none;
+    
+   }
+
+    .sec1{
+        flex-direction: column;
+   
+    }
+
+    .ins{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .at{
+        width: 100%;
+    }
+
+    .at img{
+        width: 100%;
+    }
+
+    .sh3{
+        margin: 0 auto;
+        width: 500px;
+        margin: 0 auto;
+    }
+    
+    .sh3 h1{
+        font-size: 30px;
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .showcase2{
+        
+        display: none;
+    }
+}
