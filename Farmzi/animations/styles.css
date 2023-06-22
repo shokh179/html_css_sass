@@ -1,0 +1,23 @@
+.news {
+    height: 200px;
+    background-color: #f08080;
+    margin: 20px;
+    border: 2px solid red;
+    text-align: center;
+    animation: news;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes news {
+    0% {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    } 50% {
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    } 100% {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
