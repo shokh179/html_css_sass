@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.mr {
+  margin: 3% 0;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 33;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid gainsboro;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar_icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar_icon h5 a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: none;
+}
+
+.text {
+  display: flex;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+.text_sect1 {
+  width: 40%;
+}
+.text_sect1 h1 {
+  font-size: 3rem;
+}
+.text_sect2 {
+  width: 50%;
+}
+.text_sect2 p {
+  font-size: 1.3rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards .card_sect_text h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 15px 0;
+}
+
+.heading {
+  text-align: center;
+  padding: 20px 0;
+}
+.heading h1 {
+  font-size: 2.2rem;
+}
+.heading p {
+  font-size: 1.3rem;
+}
+
+.heading1 {
+  width: 70%;
+  margin: 2% auto;
+}
+.heading1 h2 {
+  color: gray;
+}
+
+.icons {
+  margin-bottom: 10%;
+}
+
+.icon {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon_sect {
+  width: 200px;
+}
+
+.costs {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+}
+
+.cost {
+  width: 25%;
+}
+
+.girl {
+  background: url(girl.png);
+  height: 100vh;
+}
+.girl_sect {
+  padding: 40px;
+}
+.girl p {
+  color: white;
+  font-size: 1.3rem;
+}
+.girl span {
+  color: white;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box_sect {
+  width: 40%;
+}
+
+.day {
+  background: #F2F2F2;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  width: 65%;
+  margin: 6% auto;
+  text-align: center;
+  padding: 20px;
+}
+.day button {
+  color: white;
+  font-size: 1.2rem;
+  border: transparent;
+  background: #46856E;
+  padding: 10px 5px;
+}
+
+.days {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: #2B2B2B;
+  padding: 20px;
+}
+.footer h5 {
+  color: white;
+}
+.footer_fl {
+  display: flex;
+  width: 30%;
+}
+.footer_fl ul {
+  list-style: none;
+}
+.footer_fl ul h5 {
+  color: white;
+}
+.footer_fl ul a {
+  color: white;
+}
+.footer_fl ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer_sect {
+  width: 15%;
+}
+.footer_icon {
+  display: flex;
+  gap: 10px;
+}
+.footer_icon a img {
+  width: 20px;
+}
+.footer_form {
+  width: 33%;
+}
+.footer_form input {
+  background-color: #2B2B2B;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.footer_form select {
+  background-color: #2B2B2B;
+  color: white;
+  border: transparent;
+  font-size: 1rem;
+  color: gray;
+}
+.footer_w {
+  width: 10%;
+}
+
+@media (max-width: 750px) {
+  .navbar {
+    display: none;
+  }
+  .open {
+    font-size: 1.8rem;
+    color: black;
+  }
+  input {
+    display: none;
+  }
+  .close {
+    width: 100%;
+    height: 100vh;
+    background: rgba(183, 179, 179, 0.534);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    transition: 0.5s;
+  }
+  #check:checked ~ .res {
+    padding: 20px;
+    text-align: center;
+    left: 0;
+  }
+  #check:checked ~ .close {
+    display: block;
+  }
+  nav {
+    justify-content: space-between;
+    display: flex;
+    background-color: #dedede;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+  }
+  .navf ul {
+    padding: 15px;
+    list-style: none;
+  }
+  .navf ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: blue;
+  }
+  .navf ul li a:hover {
+    color: orangered;
+  }
+  .res {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    left: -300%;
+    background: linear-gradient(to right bottom, rgb(159, 155, 155), rgb(200, 194, 194));
+    transition: 0.5s;
+    z-index: 55;
+  }
+}
+@media (max-width: 950px) {
+  .text {
+    flex-direction: column;
+  }
+  .text_sect1 {
+    width: 90%;
+  }
+  .text_sect2 {
+    width: 90%;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .icon {
+    flex-direction: column;
+  }
+  .icon_sect {
+    margin: 0 auto;
+  }
+  .costs {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .cost {
+    width: 90%;
+    text-align: center;
+  }
+  .box {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer h5 {
+    color: white;
+  }
+  .footer_fl {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .footer_fl ul {
+    list-style: none;
+  }
+  .footer_fl ul h5 {
+    color: white;
+  }
+  .footer_fl ul a {
+    color: white;
+  }
+  .footer_fl ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer_sect {
+    width: 90%;
+  }
+  .footer_icon {
+    display: flex;
+    gap: 10px;
+    width: 100px;
+    margin: 0 auto;
+  }
+  .footer_icon a img {
+    width: 20px;
+    margin: 0 auto;
+  }
+  .footer_form {
+    width: 90%;
+  }
+  .footer_form input {
+    background-color: #2B2B2B;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  .footer_form select {
+    background-color: #2B2B2B;
+    color: white;
+    border: transparent;
+    font-size: 1rem;
+    color: gray;
+  }
+  .footer_w {
+    width: 90%;
+  }
+  .day {
+    width: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .days {
+    flex-direction: column;
+  }
+  .box_sect {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */
