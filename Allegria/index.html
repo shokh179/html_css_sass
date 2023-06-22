@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allegria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="navbar">
+    <div class="navbar_logo">
+       <a href="#"> <img src="logo.png" alt=""></a>
+    </div>
+
+     <!-- nav w responsive -->
+     <input type="checkbox" id="check">
+     <div class="resnav">
+         <div class="navbar_list">
+             <ul>
+             <a href="#"> <li>ЖЕНЩИНЫ</li></a>
+             <a href="#"> <li>МУЖЧИНЫ</li></a>
+             </ul>
+          </div>
+          <div class="navbar_input">
+             <form action="">
+              <label for="search">ПОИСК</label>
+              <input id="search" type="search">
+             </form>
+          </div>
+          <div class="navbar_lang">
+              <ul>
+                 <a href="#"> <li>RU</li></a>
+                 <a href="#"> <li>UA</li></a>
+                 <a href="#"> <li>EN</li></a>
+              </ul>
+          
+          </div>
+     </div>
+     <label class="open" for="check"><i class="fa-solid fa-bars"></i></label>       
+      <!-- nav w res end -->
+ 
+      <div class="hiddensection">
+        <div class="navbar_list">
+            <ul>
+            <a href="#"> <li>ЖЕНЩИНЫ</li></a>
+            <a href="#"> <li>МУЖЧИНЫ</li></a>
+            </ul>
+         </div>
+        
+         <div class="navbar_input">
+            <form action="">
+             <label for="search">ПОИСК</label>
+             <input id="search" type="search">
+            </form>
+         </div>
+         <div class="navbar_lang">
+             <ul>
+                <a href="#"> <li>RU</li></a>
+                <a href="#"> <li>UA</li></a>
+                <a href="#"> <li>EN</li></a>
+             </ul>
+         
+         </div>
+      </div>
+   
+    <div class="navbar_icon">
+        <a href="#"><i class="fa-regular fa-user"></i></a>
+        <a href="#"> <i class="fa-regular fa-heart"></i></a>
+        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+    </div>
+</div>
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+
+    <ul class="uk-slideshow-items">
+        <li>
+          <div class="showcase">
+            <div class="show">
+                <p>бренд </p>
+                <h1>american vintage</h1>
+                <h3>Смотреть коллекцию</h3>
+              </div>
+              <div class="case">
+               <img src="showcase2.png" alt="">
+              </div>
+          </div>
+        </li>
+        <li>
+            <div class="showcase">
+                <div class="show">
+                    <p>бренд </p>
+                    <h1>american vintage</h1>
+                    <h3>Смотреть коллекцию</h3>
+                  </div>
+                  <div class="case">
+                   <img src="showcase2.png" alt="">
+                  </div>
+              </div>
+        </li>
+        <li>
+            <div class="showcase">
+                <div class="show">
+                    <p>бренд </p>
+                    <h1>american vintage</h1>
+                    <h3>Смотреть коллекцию</h3>
+                  </div>
+                  <div class="case">
+                   <img src="showcase2.png" alt="">
+                  </div>
+              </div>
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+</div>
+
+<div class="sidebar">
+    <div class="sidebar_sect1">
+        <h1>new  arrival</h1>
+        <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip</p>
+        <h6>    <a href="#">Смотреть коллекцию</a></h6>
+    </div>
+ <div class="sidemargn">  
+    <div class="sidebar_sect2">
+        <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip</p>
+   </div>
+ </div>
+</div>
+
+<div class="heading">
+    <h1>Популярное</h1>
+</div>
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+        <li>
+           <div class="carusel">
+            <div class="carusel_img">
+                <img src="carusel1.png" alt="">
+            </div>
+            <div class="carusel_text">
+                <h1>REPLAY</h1>
+                <p>Classic Shoes</p>
+                <button>buy</button>
+                <div class="carusel_text_del">
+                    <del>6100 UAH</del>
+                    <p>3800 UAH</p>
+                </div>
+            </div>
+           </div>
+        </li>
+        <li>
+            <div class="carusel">
+                <div class="carusel_img">
+                    <img src="carusel2.png" alt="">
+                </div>
+                <div class="carusel_text">
+                    <h1>REPLAY</h1>
+                    <p>Classic Shoes</p>
+                    <button>buy</button>
+                    <div class="carusel_text_del">
+                        <del>6100 UAH</del>
+                        <p>3800 UAH</p>
+                    </div>
+                </div>
+             </div>
+        </li>
+        <li>
+            <div class="carusel">
+                <div class="carusel_img">
+                    <img src="carusel3.png" alt="">
+                </div>
+                <div class="carusel_text">
+                    <h1>REPLAY</h1>
+                    <p>Classic Shoes</p>
+                    <button>buy</button>
+                    <div class="carusel_text_del">
+                        <del>6100 UAH</del>
+                        <p>3800 UAH</p>
+                    </div>
+                </div>
+               </div>
+        </li>
+        <li>
+            <div class="carusel">
+                <div class="carusel_img">
+                    <img src="carusel4.png" alt="">
+                </div>
+                <div class="carusel_text">
+                    <h1>REPLAY</h1>
+                    <p>Classic Shoes</p>
+                    <button>buy</button>
+                    <div class="carusel_text_del">
+                        <del>6100 UAH</del>
+                        <p>3800 UAH</p>
+                    </div>
+                </div>
+               </div>
+        </li>
+
+        <li>
+            <div class="carusel">
+             <div class="carusel_img">
+                 <img src="carusel1.png" alt="">
+             </div>
+             <div class="carusel_text">
+                 <h1>REPLAY</h1>
+                 <p>Classic Shoes</p>
+                 <button>buy</button>
+                 <div class="carusel_text_del">
+                     <del>6100 UAH</del>
+                     <p>3800 UAH</p>
+                 </div>
+             </div>
+            </div>
+         </li>
+         <li>
+             <div class="carusel">
+                 <div class="carusel_img">
+                     <img src="carusel2.png" alt="">
+                 </div>
+                 <div class="carusel_text">
+                     <h1>REPLAY</h1>
+                     <p>Classic Shoes</p>
+                     <button>buy</button>
+                     <div class="carusel_text_del">
+                         <del>6100 UAH</del>
+                         <p>3800 UAH</p>
+                     </div>
+                 </div>
+              </div>
+         </li>
+         <li>
+             <div class="carusel">
+                 <div class="carusel_img">
+                     <img src="carusel3.png" alt="">
+                 </div>
+                 <div class="carusel_text">
+                     <h1>REPLAY</h1>
+                     <p>Classic Shoes</p>
+                     <button>buy</button>
+                     <div class="carusel_text_del">
+                         <del>6100 UAH</del>
+                         <p>3800 UAH</p>
+                     </div>
+                 </div>
+                </div>
+         </li>
+         <li>
+             <div class="carusel">
+                 <div class="carusel_img">
+                     <img src="carusel4.png" alt="">
+                 </div>
+                 <div class="carusel_text">
+                     <h1>REPLAY</h1>
+                     <p>Classic Shoes</p>
+                     <button>buy</button>
+                     <div class="carusel_text_del">
+                         <del>6100 UAH</del>
+                         <p>3800 UAH</p>
+                     </div>
+                 </div>
+                </div>
+         </li>
+
+         <li>
+            <div class="carusel">
+             <div class="carusel_img">
+                 <img src="carusel1.png" alt="">
+             </div>
+             <div class="carusel_text">
+                 <h1>REPLAY</h1>
+                 <p>Classic Shoes</p>
+                 <button>buy</button>
+                 <div class="carusel_text_del">
+                     <del>6100 UAH</del>
+                     <p>3800 UAH</p>
+                 </div>
+             </div>
+            </div>
+         </li>
+         <li>
+             <div class="carusel">
+                 <div class="carusel_img">
+                     <img src="carusel2.png" alt="">
+                 </div>
+                 <div class="carusel_text">
+                     <h1>REPLAY</h1>
+                     <p>Classic Shoes</p>
+                     <button>buy</button>
+                     <div class="carusel_text_del">
+                         <del>6100 UAH</del>
+                         <p>3800 UAH</p>
+                     </div>
+                 </div>
+              </div>
+         </li>
+         <li>
+             <div class="carusel">
+                 <div class="carusel_img">
+                     <img src="carusel3.png" alt="">
+                 </div>
+                 <div class="carusel_text">
+                     <h1>REPLAY</h1>
+                     <p>Classic Shoes</p>
+                     <button>buy</button>
+                     <div class="carusel_text_del">
+                         <del>6100 UAH</del>
+                         <p>3800 UAH</p>
+                     </div>
+                 </div>
+                </div>
+         </li>
+         <li>
+             <div class="carusel">
+                 <div class="carusel_img">
+                     <img src="carusel4.png" alt="">
+                 </div>
+                 <div class="carusel_text">
+                     <h1>REPLAY</h1>
+                     <p>Classic Shoes</p>
+                     <button>buy</button>
+                     <div class="carusel_text_del">
+                         <del>6100 UAH</del>
+                         <p>3800 UAH</p>
+                     </div>
+                 </div>
+                </div>
+         </li>
+    </ul>
+  
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+
+<div class="barnt">
+    <div class="span"></div>
+    <h1>ALLEGRIA</h1>
+    <div class="span"></div>
+</div>
+
+<div class="footsection">
+    <div class="footsection_sect1">
+        <h3>o</h3>
+        <h1>НАС</h1>
+        <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLoreLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumipLorem ipsumLoremLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem </p>
+    </div>
+    <div class="footsection_sect2">
+        <img src="card3.png" alt="">
+    </div>
+</div>
+<hr>
+
+<div class="footer">
+    <h1>Будьте в курсе событий</h1>
+    <form action="">
+        <input type="text">
+        <button><img src="Vector .png" alt=""></button>
+    </form>
+    <div class="footer_link">
+        <p><a href="#">O нас</a></p>
+        <p><a href="#">Распространенные вопросы</a></p>
+        <p><a href="#">Бренды</a></p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
