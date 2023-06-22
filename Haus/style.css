@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.box{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #996B60;
+}
+
+.nav1 ul li a{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.nav2 ul li a{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.nav1 ul li {
+    display: inline-block;
+    padding: 30px 20px 0;
+    margin-left:20px ;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav2 ul li {
+    display: inline-block;
+    padding: 30px 20px 0px;
+    
+
+}
+
+.haus{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    left: 92%;
+    bottom: 2%;
+    width: 80px;
+    height: 32px;
+    
+}
+
+.alco{
+    width: 50%;
+    height: 130vh;
+    background: url(Rectangle.png);
+    background-size: cover;
+}
+
+.col{
+    width: 50%;
+    background-color: #996B60;
+    
+}
+
+.show{
+    position: relative;
+}
+
+.case{
+    position: absolute;
+    left: 55%;
+   bottom: 70%;
+   padding-bottom: 80px;
+
+}
+
+.case h1{
+    font-size: 50px;
+    font-family: 'Kaisei Opti', serif;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.case p{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.case button{
+    padding: 10px 22px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 2px solid white;
+    background-color: #996B60;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.side1{
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.bar p{
+    padding: 50px 50px 20px 50px ;
+    text-align: center;
+}
+
+.bar img{
+    width: 300px;
+    padding-left: 20px;
+}
+
+.bar2 img{
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+.made h1{
+    font-size: 52px;
+    text-align:center;
+    font-family: 'Kaisei Opti', serif;
+    padding: 10px 40px;
+    margin: 0 auto;
+    width: 76%;
+}
+
+.made p{
+    text-align:center;
+    font-family: 'Kaisei Opti', serif;
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 76%;
+    font-size: 12px;
+}
+
+.brent{
+    display: flex;
+    margin: 60px 0;
+    padding-bottom: 70px;
+    border-bottom: 1px solid grey;
+}
+
+.best img{
+    width: 80%;
+    height: 300px;
+    margin: 0 30px ;
+}
+
+.best h1{
+    font-size: 24px;
+    font-family: 'Kaisei Opti', serif;
+    text-align: center  ;
+}
+
+.best p{
+    font-size: 12px;
+    font-family: 'Kaisei Opti', serif;
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.best button{
+    color: white;
+    padding: 14px 24px;
+    background-color: black;
+    border: transparent;
+    margin-left:110px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.lemon{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 40px;
+}
+
+.entr p{
+   width: 50%;
+   margin-left: 40%;
+}
+
+.entr h1{
+    font-size: 38px;
+    font-family: 'Kaisei Opti', serif;
+}
+
+.easy{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.izypic img{
+   width: 600px;
+   height: 400px;
+}
+.izytext{
+    font-family: 'Kaisei Opti', serif;
+    margin-right: 30px;
+}
+
+.izytext p{
+    font-size: 14px;
+}
+
+.have{
+    background-color: black;
+}
+
+.them{
+    display: flex; 
+    padding: 40px;
+}
+
+.has p{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Kaisei Opti', serif;
+}
+
+#p1{color: gray;}
+
+.ased{
+    display: flex;
+    margin: 20px 0;
+    
+}
+
+.asedpic img {
+    width: 150%;
+}
+
+.asedtex h1{
+    font-size: 44px;
+    font-family: 'Kaisei Opti', serif;
+    margin-left: 150px;
+
+}
+
+.asedtex{
+    margin-top: 30px;
+}
+
+.asedtex p{
+    font-family: 'Kaisei Opti', serif;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+
+#p3{
+    font-size: 12px;
+}
+
+.glass{
+    background: url(mod.png);
+    width: 100%;
+    height: 500px;
+}
+
+.cards{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.t {
+    display: flex;
+    margin-left: 60px;
+}
+
+.t1, .t2, .t3{
+    padding: 5px;
+    font-size: 12px;
+  
+}
+
+
+.follow{
+    background-color: black;
+    width: 400px;
+    color: white;
+    font-family: 'Kaisei Opti', serif;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.mood{
+    background-color: black;
+    width: 400px;
+    color:white;
+    margin: 40px;
+    font-family: 'Kaisei Opti', serif;
+}
+
+.mood p{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+}
+
+.mood h1{
+   text-align: center;
+   padding-top: 50px;
+  
+}
+
+.mood button{
+    margin-left: 35%;
+    margin-bottom: 50px;
+    padding: 10px 24px;
+    border: transparent;
+}
+
+.footer{
+    background-color: black;
+}
+
+.foot{
+    display: flex;
+    color: white;
+   
+}
+
+.ft1{
+    margin-right: 30%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Kaisei Opti', serif;
+}
+
+.ft1 p{
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.border{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    width: 280px;
+}
+
+.border button{
+    background-color: black;
+    color: #fff;
+    margin-left: 100px;
+    font-size: 12px;
+}
+
+.border input{
+    background-color: black;
+    color: #fff;
+    border:none;
+    font-size: 10px;
+}
+
+.ft2{
+    padding: 20px 20px;
+    font-family: 'Kaisei Opti', serif;
+}
+
+.ft2 ul li a {
+    font-size: 10px;
+    color: gray;
+    font-family: 'Kaisei Opti', serif;
+}
+
+.ft2 h4{
+    font-size: 12px;
+}
+
+.cont{
+    display: flex;
+    background-color: black;
+    padding-left: 30px;
+}
+
+
+.co p{
+ padding: 10px;
+ font-family: 'Kaisei Opti', serif;
+ margin-bottom: 30px;
+ font-size: 12px;
+ color: #fff;
+}
+
+.mr{
+   
+    position: relative;
+   
+   
+}
+
+.sel{
+  color: white;
+  position: absolute;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  left: 70%;
+  background-color: black;
+}
+
+.sel p{
+    font-size: 12px;
+    font-family: 'Kaisei Opti', serif;
+    padding-top: 20px;
+}
