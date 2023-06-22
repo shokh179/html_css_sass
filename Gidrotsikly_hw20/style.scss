@@ -1,0 +1,561 @@
+$dg:gray;
+$lg:#F0F0F4;
+$b:#1C62CD;
+.our-nav{
+    display: flex;
+    gap: 10px;
+    padding-left: 3%;
+    i{
+        color: grey;
+        font-size: 20px;
+    }
+    li{
+        list-style: none;
+    }
+}
+
+.box2{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.box1{
+    width: 75%;
+    margin: 0 auto;
+   
+    
+}
+
+.box{
+    width: 65% ;
+    margin: 0 auto ;
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 20px !important;
+    padding-top: 2% !important;
+}
+
+.nav-link:hover{
+    color: black !important;
+}
+
+.navbar-brand{
+    padding: 0 20px ;
+}
+
+.menu{
+    margin-top: 100px;
+    
+
+    ul{
+        background-color: $lg;
+       
+    }
+    
+    li{
+        display: inline-block;
+        list-style: none;
+        color: $dg;
+        font-weight: 500;
+        font-size: 18px ;
+        padding: 10px 16px;
+        border-bottom: 2px solid transparent;
+        
+        
+        
+    }
+
+   
+
+    li:hover{
+        border-bottom: 2px solid $b;
+        color: black;
+    }
+
+}
+
+#carouselExampleIndicators{
+    width: 75%;
+    
+}
+
+.card{
+  margin-left: 20px;
+  width: 21%;
+  border: 1px solid;
+  border-radius: 1px !important;
+
+  &__section{
+    display: flex;
+    justify-content: space-between;
+
+    &_text{
+        h4{
+            color: $b;
+        }
+
+        del{
+            color: rgb(194, 190, 190);
+            font-size: 15px;
+            padding-left: 30px;
+        }
+    }
+
+    &_button {
+        button{
+            background-color: $b;
+            color: white;
+            border: 1px transparent;
+            padding: 5px 15px;
+        }
+    }
+  }
+
+  &__img {
+   width: 200px;
+   margin: 0 auto;
+  }
+
+  &__text{
+       h5{
+        font-size: 18px;
+        text-align: center;
+        width: 90%;
+       }
+ 
+  }
+
+  &__footer{
+    background-color: gainsboro;
+    text-align: center;
+    padding-bottom: 5px;
+    h5{
+        font-size: 18px;
+    }
+
+    h6{
+        color: $b;
+    }
+}
+}
+
+.search{
+    margin-bottom:5% ;
+    &__buttons{
+        display: flex;
+        margin: 3% auto;
+        button{
+            font-size: 16px;
+            border-radius: 5px;
+            border: transparent;
+            padding: 10px;
+
+        }
+
+        button:hover{
+            font-weight: 500;
+            background-color: gainsboro;
+        }
+    }
+
+    &__input{
+        display: flex;
+        justify-content: space-between;
+       input{
+        padding: 10px 70% 10px 10px;
+        border: transparent;
+        background-color: gainsboro;
+       }
+       button{
+        width: 30%;
+        border: transparent;
+        background-color: $b;
+        color: white;
+       }
+    }
+}
+
+.karts{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    &__section{
+
+        &_kart{
+            margin: 20px 10px;
+            display: flex;
+            border: 1px solid gainsboro;
+            padding: 20px;
+           
+            &_text{
+                h5{
+                    padding-bottom: 30px;
+                }
+                h5:hover{
+                  color: $b;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: gainsboro;
+                    font-weight: 500;
+                }
+
+                a:hover{
+                    color: gray;
+                }
+            }
+        }
+
+        &_kart:hover{
+            box-shadow:   0px 5px 5px 5px rgba(black, .075);
+        }
+
+        
+    }
+
+
+}
+
+.left{
+   margin-left: 30px;
+}
+
+.karuselmenu{
+   
+   h3:hover{
+    color: $b;
+   }
+    
+    li{
+        display: inline-block;
+        list-style: none;
+        color: $dg;
+        font-weight: 500;
+        font-size: 18px ;
+        padding: 10px;
+        border-bottom: 2px solid transparent;
+    }
+
+   
+
+    li:hover{
+        border-bottom: 2px solid $b;
+        color: black;
+    }
+
+}
+
+.carousel-cards{
+    display: flex;
+    width: 80%;
+    gap: 10px;
+    margin: 0 auto;
+   
+}
+
+.carouselcard{
+    margin: 15px ;
+    padding: 0 15px;
+    text-align: center;
+    background-color: #fff;
+    i{
+        margin-left:90%;
+        font-size: 22px;
+    }
+
+    h3:hover{
+       color: $b;
+    }
+
+    
+}
+
+.carouselcard:hover{
+    box-shadow:   0px 5px 5px 5px rgba(black, .25);
+}
+
+.pen {
+    background-color: rgb(150, 146, 146);
+}
+
+.look {
+       width: 150px;
+        margin: 5% auto;
+    button{
+       
+        padding: 10px 15px;
+        font-size: 18px;
+        background-color: gainsboro;
+        border: transparent;
+    }
+
+    button:hover{
+        background-color: $b;
+        color: white;
+    }
+}
+
+.skidka{
+    display: flex;
+    background-color: $b;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 5%;
+   
+    &__button{
+     width: 30%;
+     margin: 5% auto ;
+       button{
+        padding: 10px 15px;
+        font-size: 16px;
+        border: transparent;
+       
+       }
+    }
+    h2{
+       
+        text-align: left;
+        font-size: 40px;
+        color: white;
+        margin-left: 13%;
+        padding: 20px 0;
+    }
+    &__img{
+        margin-left: 10%;
+      
+        display: flex;
+        padding: 20px;
+    }
+}
+
+
+.footer{
+    display: flex;
+    &__section{
+        margin: 5% 0;
+        padding: 0 20px;
+        ul{
+            list-style: none;
+        }
+        &_input{
+            display: flex;
+            input{
+                border: transparent;
+                background-color: gainsboro;
+            }
+
+            button{
+                border: transparent;
+                color: white;
+                background-color: $b;
+                border-radius: 3px;
+            }
+        }
+     &_icon{
+        display: flex;
+        gap: 10px;
+
+        .icon{
+            font-size: 30px;
+
+        }
+     }
+    }
+}
+
+.gr{
+
+        margin: 30px 0;
+    
+    
+}
+
+.size{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1300px){
+    .box1, .box2{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .box{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .menu{
+        li{
+            padding: 10px 21px;
+        }
+    }
+}
+
+@media(max-width:1230px){
+   .karts{
+    width: 90%;
+    margin: 0 auto;
+   }
+}
+
+@media(max-width:1190px){
+    .carousel-cards{
+        display: flex;
+        width: 100%;
+        gap: 10px;
+        margin: 0 auto;
+       
+    }
+}
+
+@media(max-width:1170px){
+
+   
+
+    .karts{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:1110px){
+    .karts{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:1070px){
+
+    .carousel-cards{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 auto;
+       
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .box1, .box2 {
+        width: 100%;
+    }
+
+   .menu{
+     li{
+        padding: 10px 17px;
+     }
+   }
+}
+
+@media(max-width:1010px){
+    .skidka{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:950px){
+    .box2{
+        flex-direction: column;
+    }
+
+    #carouselExampleIndicators{
+        width: 90%;
+        margin: 3% auto;
+        
+    }
+
+    .card{
+        margin: 0 auto;
+        width: 90%;
+        border: 1px solid;
+        border-radius: 1px !important;
+      
+        &__section{
+          display: flex;
+          justify-content: space-between;
+      
+        
+      
+              del{
+                  color: rgb(194, 190, 190);
+                  font-size: 15px;
+                  padding-left: 30px;
+              }
+          }
+      
+          &_button {
+              button{
+                  background-color: $b;
+                  color: white;
+                  border: 1px transparent;
+                  padding: 5px 15px;
+              }
+          }
+        
+      
+        &__img {
+          width: 200px;
+          margin: 0 auto;
+        }
+      
+        &__text{
+             h5{
+              font-size: 18px;
+              text-align: center;
+              
+             }
+       
+        }
+      
+        &__footer{
+          background-color: gainsboro;
+          text-align: center;
+          padding-bottom: 5px;
+         
+      }
+      }
+
+      .navbar-brand img{
+        display: none;
+      }
+    }
+
+@media(max-width:850px){
+    .search{
+      &__input{
+        input{
+            width: 90%;
+            margin: 0 auto;
+            padding: 10px 50% 10px 10px;
+        }
+        button{
+            width: 20%;
+        }
+      }
+    }
+}
+
+@media(max-width:800px){
+    .footer{
+        flex-direction: column;
+    }
+}

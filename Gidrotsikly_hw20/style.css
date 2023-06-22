@@ -1,0 +1,432 @@
+.our-nav {
+  display: flex;
+  gap: 10px;
+  padding-left: 3%;
+}
+.our-nav i {
+  color: grey;
+  font-size: 20px;
+}
+.our-nav li {
+  list-style: none;
+}
+
+.box2 {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box1 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 20px !important;
+  padding-top: 2% !important;
+}
+
+.nav-link:hover {
+  color: black !important;
+}
+
+.navbar-brand {
+  padding: 0 20px;
+}
+
+.menu {
+  margin-top: 100px;
+}
+.menu ul {
+  background-color: #F0F0F4;
+}
+.menu li {
+  display: inline-block;
+  list-style: none;
+  color: gray;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px 16px;
+  border-bottom: 2px solid transparent;
+}
+.menu li:hover {
+  border-bottom: 2px solid #1C62CD;
+  color: black;
+}
+
+#carouselExampleIndicators {
+  width: 75%;
+}
+
+.card {
+  margin-left: 20px;
+  width: 21%;
+  border: 1px solid;
+  border-radius: 1px !important;
+}
+.card__section {
+  display: flex;
+  justify-content: space-between;
+}
+.card__section_text h4 {
+  color: #1C62CD;
+}
+.card__section_text del {
+  color: rgb(194, 190, 190);
+  font-size: 15px;
+  padding-left: 30px;
+}
+.card__section_button button {
+  background-color: #1C62CD;
+  color: white;
+  border: 1px transparent;
+  padding: 5px 15px;
+}
+.card__img {
+  width: 200px;
+  margin: 0 auto;
+}
+.card__text h5 {
+  font-size: 18px;
+  text-align: center;
+  width: 90%;
+}
+.card__footer {
+  background-color: gainsboro;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.card__footer h5 {
+  font-size: 18px;
+}
+.card__footer h6 {
+  color: #1C62CD;
+}
+
+.search {
+  margin-bottom: 5%;
+}
+.search__buttons {
+  display: flex;
+  margin: 3% auto;
+}
+.search__buttons button {
+  font-size: 16px;
+  border-radius: 5px;
+  border: transparent;
+  padding: 10px;
+}
+.search__buttons button:hover {
+  font-weight: 500;
+  background-color: gainsboro;
+}
+.search__input {
+  display: flex;
+  justify-content: space-between;
+}
+.search__input input {
+  padding: 10px 70% 10px 10px;
+  border: transparent;
+  background-color: gainsboro;
+}
+.search__input button {
+  width: 30%;
+  border: transparent;
+  background-color: #1C62CD;
+  color: white;
+}
+
+.karts {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.karts__section_kart {
+  margin: 20px 10px;
+  display: flex;
+  border: 1px solid gainsboro;
+  padding: 20px;
+}
+.karts__section_kart_text h5 {
+  padding-bottom: 30px;
+}
+.karts__section_kart_text h5:hover {
+  color: #1C62CD;
+}
+.karts__section_kart_text a {
+  text-decoration: none;
+  color: gainsboro;
+  font-weight: 500;
+}
+.karts__section_kart_text a:hover {
+  color: gray;
+}
+.karts__section_kart:hover {
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.075);
+}
+
+.left {
+  margin-left: 30px;
+}
+
+.karuselmenu h3:hover {
+  color: #1C62CD;
+}
+.karuselmenu li {
+  display: inline-block;
+  list-style: none;
+  color: gray;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+}
+.karuselmenu li:hover {
+  border-bottom: 2px solid #1C62CD;
+  color: black;
+}
+
+.carousel-cards {
+  display: flex;
+  width: 80%;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.carouselcard {
+  margin: 15px;
+  padding: 0 15px;
+  text-align: center;
+  background-color: #fff;
+}
+.carouselcard i {
+  margin-left: 90%;
+  font-size: 22px;
+}
+.carouselcard h3:hover {
+  color: #1C62CD;
+}
+
+.carouselcard:hover {
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.pen {
+  background-color: rgb(150, 146, 146);
+}
+
+.look {
+  width: 150px;
+  margin: 5% auto;
+}
+.look button {
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: gainsboro;
+  border: transparent;
+}
+.look button:hover {
+  background-color: #1C62CD;
+  color: white;
+}
+
+.skidka {
+  display: flex;
+  background-color: #1C62CD;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-bottom: 5%;
+}
+.skidka__button {
+  width: 30%;
+  margin: 5% auto;
+}
+.skidka__button button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: transparent;
+}
+.skidka h2 {
+  text-align: left;
+  font-size: 40px;
+  color: white;
+  margin-left: 13%;
+  padding: 20px 0;
+}
+.skidka__img {
+  margin-left: 10%;
+  display: flex;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+}
+.footer__section {
+  margin: 5% 0;
+  padding: 0 20px;
+}
+.footer__section ul {
+  list-style: none;
+}
+.footer__section_input {
+  display: flex;
+}
+.footer__section_input input {
+  border: transparent;
+  background-color: gainsboro;
+}
+.footer__section_input button {
+  border: transparent;
+  color: white;
+  background-color: #1C62CD;
+  border-radius: 3px;
+}
+.footer__section_icon {
+  display: flex;
+  gap: 10px;
+}
+.footer__section_icon .icon {
+  font-size: 30px;
+}
+
+.gr {
+  margin: 30px 0;
+}
+
+.size {
+  margin: 10px 0;
+}
+
+@media (max-width: 1300px) {
+  .box1, .box2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .box {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .menu li {
+    padding: 10px 21px;
+  }
+}
+@media (max-width: 1230px) {
+  .karts {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1190px) {
+  .carousel-cards {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1170px) {
+  .karts {
+    width: 100%;
+  }
+}
+@media (max-width: 1110px) {
+  .karts {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1070px) {
+  .carousel-cards {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  .box {
+    width: 100%;
+  }
+  .box1, .box2 {
+    width: 100%;
+  }
+  .menu li {
+    padding: 10px 17px;
+  }
+}
+@media (max-width: 1010px) {
+  .skidka {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 950px) {
+  .box2 {
+    flex-direction: column;
+  }
+  #carouselExampleIndicators {
+    width: 90%;
+    margin: 3% auto;
+  }
+  .card {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid;
+    border-radius: 1px !important;
+  }
+  .card__section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card__section del {
+    color: rgb(194, 190, 190);
+    font-size: 15px;
+    padding-left: 30px;
+  }
+  .card_button button {
+    background-color: #1C62CD;
+    color: white;
+    border: 1px transparent;
+    padding: 5px 15px;
+  }
+  .card__img {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .card__text h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .card__footer {
+    background-color: gainsboro;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .navbar-brand img {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  .search__input input {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 50% 10px 10px;
+  }
+  .search__input button {
+    width: 20%;
+  }
+}
+@media (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
