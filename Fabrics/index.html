@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrics</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+   <nav>
+   
+    <div class="navbar">
+        <div class="navbar_logo">
+            <a href="#"><img src="ткани.png" alt=""></a>
+        </div>
+
+        <input type="checkbox" id="check">
+        <div class="checknav">
+            <div class="checknav_location">
+                <div class="navbar_location_icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="checknav_location_text">
+                   <a href="#">Санкт-Петербург</a>
+                </div>
+            </div>
+            <div class="checknav_input">
+               <form action=""> <input type="search" placeholder="Я ищу"></form>
+            </div>
+            <div class="checknav_contact">
+                <a href="tel:8 800 900 70 90">8 800 900 70 90</a>
+                <p>Пн-вс: 10:00 - 21:00</p>
+            </div>
+        </div>
+        <label class="open" for="check"><i class="fa-solid fa-bars"></i></label>    
+           
+        <div class="navbar_location">
+            <div class="navbar_location_icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="navbar_location_text">
+               <a href="#">Санкт-Петербург</a>
+            </div>
+        </div>
+        <div class="navbar_input">
+            <input type="text" placeholder="Я ищу">
+        </div>
+        <div class="navbar_contact">
+          <h4>  <a href="tel:8 800 900 70 90">8 800 900 70 90</a></h4>
+            <p>Пн-вс: 10:00 - 21:00</p>
+        </div>
+        <div class="navbar_icons">
+            <div class="navbar_icons_heart">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="navbar_icons_user">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="navbar_icons_bag">
+                <i class="fa-solid fa-bag-shopping"></i>12
+            </div>
+        </div>
+    </div>
+   
+   </nav>
+    
+  <div class="menu">
+    <ul>
+        <li><a href="#"></a>Квадроциклы</li>
+        <li><a href="#"></a>Катера</li>
+        <li><a href="#"></a>Гидроциклы</li>
+        <li><a href="#"></a>Лодки</li>
+        <li><a href="#"></a>Вездеходы</li>
+        <li><a href="#"></a>Снегоходы</li>
+        <li><a href="#"></a>Двигатели</li>
+        
+    </ul>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <div class="brant">
+        <div class="brant_text">
+            <h1>Скидки 20%на новые ткани</h1>
+        <h2>⅔</h2>
+        </div>
+       </div>
+      </div>
+      <div class="carousel-item">
+        <div class="brant">
+            <div class="brant_text">
+                <h1>Скидки 20%на новые ткани</h1>
+            <h2>⅔</h2>
+            </div>
+           </div>
+      
+
+      </div>
+      <div class="carousel-item">
+        <div class="brant">
+            <div class="brant_text">
+                <h1>Скидки 20%на новые ткани</h1>
+            <h2>⅔</h2>
+            </div>
+           </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="fabriccard">
+    <div class="fabriccard_card1">
+        <div class="fabriccard_card1_number">
+      <h1>20%</h1>
+        </div>
+        <div class="fabriccard_card1_text">
+           <p> на новые ткани </p>
+        </div>
+    </div>
+    <div class="fabriccard_card2">
+        <div class="fabriccard_card2_number">
+      <h1>15%</h1>
+        </div>
+        <div class="fabriccard_card2_text">
+           <p> на новые ткани </p>
+        </div>
+    </div>
+    <div class="fabriccard_card3">
+        <div class="fabriccard_card3_number">
+      <h1>6%</h1>
+        </div>
+        <div class="fabriccard_card3_text">
+           <p> на новые ткани </p>
+        </div>
+    </div>
+  </div>
+
+  <div class="heading">
+    <h1>Популярные категории</h1>
+
+    <div class="produc1">
+        <div class="produc1_card1">
+            <p>Лен и полулен</p>
+        </div>
+        <div class="produc1_card2">
+            <p>Хлопок</p>
+        </div>
+    </div>
+
+    <div class="produc2">
+        <div class="produc2_card1">
+            <p>Лен и полулен</p>
+        </div>
+        <div class="produc2_card2">
+            <p>Хлопок</p>
+        </div>
+    </div>
+    <div class="produc3">
+        <div class="produc3_card1">
+            <p>Лен и полулен</p>
+        </div>
+        <div class="produc3_card2">
+            <p>Лен и полулен</p>
+        </div>
+        <div class="produc3_card3">
+            <p>Хлопок</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="tit">
+    <h1>Вы просматривали</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+        <div class="maters">
+            <div class="material">
+                <img src="img1.png" alt="">
+               <div class="material_text">
+                <p>Рогожка</p>
+                <h3>Альпийская деревенька</h3>
+                <div class="sizes">
+                    <h6>Ширина</h6>
+                    <p>15 m</p>
+                </div>
+                <div class="sizes">
+                    <h6>Состав</h6>
+                    <p>15 m</p>
+                </div>
+                <div class="sizes">
+                    <h6>Плотность</h6>
+                    <p>170 гр</p>
+                </div>
+               </div>
+               <div class="material_sum">
+                <h3>249$</h3>
+                <p><a href="#">В корзину</a></p>
+               </div>
+              </div>
+              <div class="material">
+                <img src="img2.png" alt="">
+               <div class="material_text">
+                <p>Рогожка</p>
+                <h3>Альпийская деревенька</h3>
+                <div class="sizes">
+                    <h6>Ширина</h6>
+                    <p>15 m</p>
+                </div>
+                <div class="sizes">
+                    <h6>Состав</h6>
+                    <p>15 m</p>
+                </div>
+                <div class="sizes">
+                    <h6>Плотность</h6>
+                    <p>170 гр</p>
+                </div>
+               </div>
+               <div class="material_sum">
+                <h3>249$</h3>
+                <p><a href="#">В корзину</a></p>
+               </div>
+              </div>
+              <div class="material">
+                <img src="img3.png" alt="">
+               <div class="material_text">
+                <p>Рогожка</p>
+                <h3>Альпийская деревенька</h3>
+                <div class="sizes">
+                    <h6>Ширина</h6>
+                    <p>15 m</p>
+                </div>
+                <div class="sizes">
+                    <h6>Состав</h6>
+                    <p>15 m</p>
+                </div>
+                <div class="sizes">
+                    <h6>Плотность</h6>
+                    <p>170 гр</p>
+                </div>
+               </div>
+               <div class="material_sum">
+                <h3>249$</h3>
+                <p><a href="#">В корзину</a></p>
+               </div>
+              </div>
+        </div>
+          </div>
+          <div class="carousel-item">
+            <div class="maters">
+                <div class="material">
+                    <img src="img1.png" alt="">
+                   <div class="material_text">
+                    <p>Рогожка</p>
+                    <h3>Альпийская деревенька</h3>
+                    <div class="sizes">
+                        <h6>Ширина</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Состав</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Плотность</h6>
+                        <p>170 гр</p>
+                    </div>
+                   </div>
+                   <div class="material_sum">
+                    <h3>249$</h3>
+                    <p><a href="#">В корзину</a></p>
+                   </div>
+                  </div>
+                  <div class="material">
+                    <img src="img2.png" alt="">
+                   <div class="material_text">
+                    <p>Рогожка</p>
+                    <h3>Альпийская деревенька</h3>
+                    <div class="sizes">
+                        <h6>Ширина</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Состав</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Плотность</h6>
+                        <p>170 гр</p>
+                    </div>
+                   </div>
+                   <div class="material_sum">
+                    <h3>249$</h3>
+                    <p><a href="#">В корзину</a></p>
+                   </div>
+                  </div>
+                  <div class="material">
+                    <img src="img3.png" alt="">
+                   <div class="material_text">
+                    <p>Рогожка</p>
+                    <h3>Альпийская деревенька</h3>
+                    <div class="sizes">
+                        <h6>Ширина</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Состав</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Плотность</h6>
+                        <p>170 гр</p>
+                    </div>
+                   </div>
+                   <div class="material_sum">
+                    <h3>249$</h3>
+                    <p><a href="#">В корзину</a></p>
+                   </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="maters">
+                <div class="material">
+                    <img src="img1.png" alt="">
+                   <div class="material_text">
+                    <p>Рогожка</p>
+                    <h3>Альпийская деревенька</h3>
+                    <div class="sizes">
+                        <h6>Ширина</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Состав</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Плотность</h6>
+                        <p>170 гр</p>
+                    </div>
+                   </div>
+                   <div class="material_sum">
+                    <h3>249$</h3>
+                    <p><a href="#">В корзину</a></p>
+                   </div>
+                  </div>
+                  <div class="material">
+                    <img src="img2.png" alt="">
+                   <div class="material_text">
+                    <p>Рогожка</p>
+                    <h3>Альпийская деревенька</h3>
+                    <div class="sizes">
+                        <h6>Ширина</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Состав</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Плотность</h6>
+                        <p>170 гр</p>
+                    </div>
+                   </div>
+                   <div class="material_sum">
+                    <h3>249$</h3>
+                    <p><a href="#">В корзину</a></p>
+                   </div>
+                  </div>
+                  <div class="material">
+                    <img src="img3.png" alt="">
+                   <div class="material_text">
+                    <p>Рогожка</p>
+                    <h3>Альпийская деревенька</h3>
+                    <div class="sizes">
+                        <h6>Ширина</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Состав</h6>
+                        <p>15 m</p>
+                    </div>
+                    <div class="sizes">
+                        <h6>Плотность</h6>
+                        <p>170 гр</p>
+                    </div>
+                   </div>
+                   <div class="material_sum">
+                    <h3>249$</h3>
+                    <p><a href="#">В корзину</a></p>
+                   </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </div>
+
+<div class="footercard">
+    <div class="footercard_card1">
+        <h1>Подпишитесь на рассылку</h1>
+        <p>Будьте в курсе наших акций</p>
+    </div>
+    <div class="footercard_card2">
+        <div class="footercard_input">
+        <form action="">
+            <input type="text" placeholder="Ваша почта">
+          <button>Подписаться</button>
+        </form>
+        </div>
+        <p>Нажимая кнопку, вы даете согласие на обработку ваших персональных данных в соответствии с Политикой Конфиденциальности</p>
+    </div>
+</div>
+
+<div class="footercont">
+    <div class="footercont_sect1">
+       <div class="footercont_sect1_insec1">
+        <h6>Наши контакты</h6>
+      <a href="tel:8 800 900 70 90">  <p>8 800 900 70 90</p></a>
+        <p>г. Орск Проспект Ленина 71 / А</p>
+        <p>Пн-вс: 10:00 - 21:00 без выходных</p>
+        <div class="foticons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-vk"></i>
+        </div>
+       </div>
+       <div class="footercont_sect1_insec2">
+        <h6>Способы оплаты</h6>
+        <img src="MasterCard.png" alt="">
+        <img src="PayPal.png" alt="">
+        <img src="Visa.png" alt="">
+       </div>
+    </div>
+    <div class="footercont_sect2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.9148412958098!2d69.26224751492532!3d41.33246510736196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b6cbd7e49a1%3A0xf23c3817c486d743!2sAmity%20University%20Tashkent!5e0!3m2!1sru!2s!4v1660351560344!5m2!1sru!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/js/uikit-icons.min.js"></script>
+    
+   
+</body>
+</html>
