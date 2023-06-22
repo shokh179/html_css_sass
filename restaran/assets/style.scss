@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    &_sect{
+        display: flex;
+        gap: 30px;
+        
+        ul{
+            list-style: none;
+            display: flex;
+            padding-right: 20px;
+            gap: 15px;
+            border-right: 2px solid gray;
+            li a{
+                color: white;
+            }
+        }
+        &_mini{
+            display: flex;
+            &_link{
+                width: 220px;
+                a, p{
+                    color: white;
+                }
+            }
+            &_btn{
+              button{
+                background-color: orange;
+                color: white;
+                border: transparent;
+                padding: 10px;
+              }
+            }
+
+        }
+    }
+}
+nav{
+    display: none;
+}
+
+.bg{
+    background: url(showcase.png);
+    height: 100vh;
+}
+.bcg{
+    height: 150vh;
+}
+
+.showcase{
+    padding: 10% 0 0 20%;
+    text-align: center;
+    width: 700px;
+    h1{
+        color: orange;
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    h2{
+        color: orange;
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+    h3{
+        padding: 20px 0;
+        color: white;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        span{
+            border-bottom: 1px solid white;
+            padding: 0 30px;
+            
+        }
+    }
+    button{
+        background-color: orange;
+        color: white;
+        font-weight: 700;
+        border: transparent;
+        padding: 10px;
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    z-index: 44;
+    position: absolute;
+    top: 95vh;
+    right: 10%;
+    left: 10%;
+    &_card{
+      padding: 20px;
+      background-color: white;
+      text-align: center;
+      box-shadow: 6px 6px 8px 0px gainsboro;
+      &_text{
+        color: gray;
+        h2{
+            span{
+            color: goldenrod;
+            }
+        }
+        h3{
+            padding: 10px 5px;
+        }
+      }
+
+    }
+}
+
+.story{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px ;
+    align-items: center;
+    &_text{
+        width: 50%;
+        padding: 0 50px;
+        text-align: center;
+        h1{
+            font-size: 2.7rem;
+        }
+        p{
+            color: grey;
+            font-size: 1.1rem;
+        }
+    }
+    &_sect{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+    h1{
+        span{
+            color: goldenrod;
+        }
+    }
+    .son{
+        margin-top: 15%;
+        display: flex;
+        justify-content: space-evenly;
+        h1{
+            color: goldenrod;
+        }
+        h5{
+            font-size: 1.1rem;
+        }
+    }
+}
+
+.liner{
+    // background: url(liner.png), linear-gradient(rgba(0, 0, 0, 0.654));
+    // background: url(liner.png), linear-gradient(grey, grey);
+    background-image: url(liner.png), linear-gradient(rgba(128, 128, 128, 0.452) , rgba(128, 128, 128, 0.343));
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    &_sect{
+        width: 30%;
+        h1{
+            color: goldenrod;
+            font-size: 2.3rem;
+        }
+        h5{
+            color: white;
+            font-size: 1.3rem;
+        }
+        button{
+            color: white;
+            border: transparent;
+            padding: 10px;
+            background-color: rgb(218, 128, 32);
+        }
+    }
+}
+
+.heading{
+    margin: 5% 0;
+    h1{
+        text-align: center;
+        font-size: 2.7rem;
+        font-weight: 600;
+        span{
+            color: goldenrod;
+        }
+    }
+}
+
+.eat{
+    display: flex;
+    gap: 20px;
+    // justify-content: space-around;
+    margin: 5% auto;
+    width: 70%;
+    align-items: center;
+    img{
+        width: 100%;
+    }
+    &_sect{
+        &_mini{
+            display: flex;
+            gap: 20px;
+            &_text{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.karta{
+    background: url(menu.png);
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+    &_kart{
+      width: 300px;
+      padding: 30px 35px;
+      background-color: white;
+    &_img{
+       img{
+        border-radius: 50%;
+       }
+    }
+   &_text{
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    button{
+        margin-top: 15px;
+        background-color: goldenrod;
+        color: white;
+        border: transparent;
+        padding: 10px;
+    }
+   }
+    }
+}
+
+.user{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 50px;
+    p{
+        font-size: 1.3rem;
+    }
+    h5{
+        font-size: 1.3rem;
+    }
+    img{
+        border-radius: 50%;
+        padding: 20px;
+    }
+}
+
+.glass{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.cook{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    margin-top: 10%;
+    img{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:950px){
+    .showcase{
+       text-align: center;
+       padding: 30px 0 0 0;
+       width: 100%;
+    }
+    .bcg{
+        height: 220vh;
+    }
+    .cards{
+        position: static;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .story{
+        flex-direction: column;
+        gap: 25px;
+        &_text{
+            padding: 10px;
+            width: 98%;
+        }
+        &_sect{
+            width: 98%;
+        }
+    }
+
+    .glass{
+        flex-direction: column;
+    }
+
+    .eat{
+        flex-direction: column;
+    }
+
+    .karta{
+        flex-direction: column;
+        gap: 20px;
+       &_kart{
+        margin: 0 auto;
+       }
+    }
+
+    .cook{
+        flex-direction: column;
+        gap: 20px;
+        img{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width:850px){
+    .navbar{
+        display: none;
+    }
+    .open{
+        font-size: 1.8rem;
+        color: white;
+        // display:block ;
+      }
+      input{
+        display: none;
+      }
+      .close{
+        width: 100%;
+        height: 100vh;
+        background: rgba(183, 179, 179, 0.534);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        transition: 0.5s;
+      }
+      #check:checked ~ .res{
+        padding: 20px;
+        text-align: center;
+        left: 0;
+        
+       
+      }
+       #check:checked ~ .close{
+        display: block;
+      }
+      nav{
+      
+        button{
+            background-color: gold;
+            border: transparent;
+            padding: 10px;
+            &:hover{
+                background-color: aqua;
+            }
+        }
+        font-size: 1.5rem;
+        justify-content: space-between;
+        display: flex;
+        // background-color: #dedede;
+        padding: 20px;
+        gap: 20px;
+        align-items: center;
+      }
+    
+       .res{
+        position: fixed;
+        width:70%;
+        height: 100vh;
+        top: 0;
+        left: -300%;
+        background: linear-gradient(
+          to right bottom,
+          rgb(159, 155, 155),
+          rgb(200, 194, 194)
+        );
+        transition: 0.5s;
+        z-index: 55;
+      }
+    
+}
+
+@media (max-width:550px){
+   html{
+    font-size: 10px;
+   }
+   .liner{
+    flex-direction: column;
+    height: 350px;
+    &_sect{
+        width: 90%;
+    }
+   }
+
+   .karta{
+    &_kart{
+        width: 200px;
+        &_img{
+         img{
+            width: 100px;
+         }
+        }
+    }
+   }
+
+}
+
